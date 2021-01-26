@@ -1,0 +1,72 @@
+import {StyleSheet} from 'react-native'
+export const style=StyleSheet.create({
+    wrapper:{
+      flex:1
+    },
+    header:{
+      backgroundColor:'green',
+      color:'white',
+      justifyContent:'center',
+      alignItems:'center',
+      height:50
+    },
+    title:{
+      color:'white',
+      fontSize:30,
+      fontWeight:'bold'
+    },
+  
+    container:{
+     backgroundColor:'white',
+     paddingHorizontal:15,
+     paddingVertical:10,
+     width:'90%',
+     alignSelf:'center',
+     marginVertical:15
+    },
+    titleSection:{
+      fontSize:20,
+      borderBottomWidth:1,
+      width:80,
+      marginBottom:10
+    },
+    boxpaket:{
+      width:100,
+      height:70,
+      justifyContent:'flex-end',
+      alignSelf:'center',
+      marginHorizontal:10
+  
+    },
+    textpaket:{
+      backgroundColor:'rgba(0,0,0,5)',
+      paddingHorizontal:20,
+      paddingVertical:5,
+      color:'white',
+      fontSize:14,
+    },
+    shadow:{
+      shadowColor:'#0000',
+      shadowOffset:{
+      width:0,
+      height:4,
+    },
+      shadowOpacity:0.30,
+  shadowRadius:4.5,
+  elevation:8
+  
+      },
+    textRed:{
+      color:"red"
+    },
+    viewBanner:{
+      width:'100%',
+      height:200,
+      backgroundColor:'white'
+  
+    },
+    banner:{
+      width:'100%',
+      height:200
+    }
+  })
