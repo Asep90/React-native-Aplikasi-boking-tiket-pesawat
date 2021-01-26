@@ -125,7 +125,7 @@ function App(props) {
     <Footer> 
             <FooterTab>
                 <Button full>
-                    <Text> Aplikasi buatan Asep Andriyanto</Text>
+                    <Text> Asep Andriyanto</Text>
                 </Button>
             </FooterTab>
         </Footer>
